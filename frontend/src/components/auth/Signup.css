@@ -1,0 +1,107 @@
+.nbody {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+  }
+  .ncard {
+    background-color: white;
+    width:25em;
+    height: 83vh;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px 0px rgb(0 0 0 / 10%);
+  }
+  .ntitle {
+    background-color: #021f3b;
+    width: 100%;
+    border-radius: 10px;
+    height: 7em;
+    color: white;
+    text-align: center;
+    padding: 2.5em;
+  }
+  
+  .ndata{
+      display: block;
+      margin: 1em 1em 0em 3em;
+      border-radius: 23px;
+      border: none;
+      background-color: #EBEBEB;
+      width:17em;
+      /* 20em; */
+      height: 3em;
+      padding:1em
+      
+  }
+  .ndata:focus{
+      width: 20em;
+      transition: 1s;
+  }
+  .ndata:enabled{
+      border: none;
+      outline: none;
+  }
+  .nsubmit{
+      
+      margin: 1em 1em 0em 3em;
+      border-radius: 23px;
+      border: none;
+      background-color:#021f3b;
+      width:17em;
+      height: 3em;
+      /* padding:1em; */
+      text-align: center;
+      color:#FFFFFF
+  }
+  .nsubmit:hover{
+      background-color: black;
+  }
+  .nfooter{
+   margin: 1em 1em 0em 7em;
+  }
+  .nsignin{
+      text-decoration: none;
+      margin-left: 3.5em;
+      
+      color:#021f3b;
+      font-weight: bold;
+  }
+  .nsignin:hover{
+      color:black;
+  }
+  .neye{
+    display: inline-block;
+    margin: 0.7em 1em 0em 7em;
+    font-size: 10px;
+    color: #021f3b;
+    cursor: pointer;
+  }
+  .nhide{
+      display: inline-block;
+      color:#021f3b;
+      cursor:pointer;
+  }
+  
+  
+   
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
