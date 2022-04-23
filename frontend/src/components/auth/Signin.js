@@ -36,7 +36,7 @@ export default function Signin() {
         }), // body data type must match "Content-Type" header
       });
       const json = await response.json();
-      console.log(json);
+      // console.log(json);
       if (json.success) {
         localStorage.setItem("auth-token", json.authtoken);
         navigate("/");
@@ -76,7 +76,7 @@ export default function Signin() {
     // console.log("pass");
     if (hidePassword === true) sethidePassword(false);
     else sethidePassword(true);
-    console.log(hidePassword);
+    // console.log(hidePassword);
   };
   return (
     <div className="body container my-3">

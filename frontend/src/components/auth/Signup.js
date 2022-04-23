@@ -34,7 +34,7 @@ export default function Signup() {
         }
       );
       const json = await response.json();
-      console.log(json);
+      // console.log(json);
       if (json.success) {
         localStorage.setItem("auth-token", json.authtoken);
         navigate("/");
@@ -48,7 +48,7 @@ export default function Signup() {
       }
     }
     e.preventDefault();
-    console.log(credentials);
+    // console.log(credentials);
   };
   const disable = () => {
     //console.log("disable")
@@ -84,7 +84,7 @@ export default function Signup() {
     // console.log("pass");
     if (hidePassword === true) sethidePassword(false);
     else sethidePassword(true);
-    console.log(hidePassword);
+    // console.log(hidePassword);
   };
   
   
